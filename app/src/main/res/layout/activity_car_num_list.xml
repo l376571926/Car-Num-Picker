@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CarNumListActivity">
+
+    <Button
+        android:id="@+id/show_all_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示所有" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/enable_black_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑名单(或)" />
+
+        <EditText
+            android:id="@+id/black_list_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如：4,7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/enable_white_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="白名单(或)" />
+
+        <EditText
+            android:id="@+id/white_list_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如：6,8,9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/enable_white1_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="白名单(与)" />
+
+        <EditText
+            android:id="@+id/white1_list_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如：6,8,9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/enable_aa_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AA号" />
+
+        <CheckBox
+            android:id="@+id/enable_aba_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABA号" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:listitem="@layout/simple_list_item_1" />
+
+</LinearLayout>

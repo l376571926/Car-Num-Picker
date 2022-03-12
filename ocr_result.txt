@@ -1,0 +1,572 @@
+class RecognizeGeneralTableResponse {
+    result: class GeneralTableResult {
+        wordsRegionCount: 8
+        wordsRegionList: [class WordsRegionList {
+            type: table
+            wordsBlockCount: 1
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [0]
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: text
+            wordsBlockCount: 2
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words: EEDORTZOIVTNSSONG 1210705811196
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: 机动车自助选号系统
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: table
+            wordsBlockCount: 9
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [0]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [1]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [2]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [3]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [4]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [5]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [6]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [7]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [8]
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: text
+            wordsBlockCount: 2
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words: 2021年07月06日
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: 11:23:3
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: text
+            wordsBlockCount: 33
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words: 阶段二：选择号牌
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: 阶段三：完成选号
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: 请在89秒内点击确认号牌，共*50*个号牌号码供您选择，您可查看并点选心仪的号牌，
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: 当前选择号码：BU02T7
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B2T54K
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B8N54X
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B6FL04
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B01SJ5
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BC9F34
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B63SH6
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B83SU0
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B2Q73Y
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B51TN
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BQ6A71
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BL32R4
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B0U71W
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B34DK2
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B27RK3
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BZ7M25
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B7R53X
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B73SJ2
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B23TQ6
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B162Q6
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B0Q71Y
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B42T50
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B31FS7
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B02TG3
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B738K2
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B30TC7
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B5U15T
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B5ZC37
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B7SR02
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B5U14N
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: table
+            wordsBlockCount: 9
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [0]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [1, 2]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [1]
+                columns: [0]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: 阶段一：阅读选号须知
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [1]
+                columns: [1, 2]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [2]
+                columns: [0]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [2]
+                columns: [1]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [2]
+                columns: [2]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [3]
+                columns: [0]
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BU02T7     B57SW1
+                B13EP7     B7P02F
+                B50CL1     B79UK2
+                B23SL7     B3U23Z
+                B7FL43     B30SD7
+                B76SR1     BU7P02
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [3]
+                columns: [1, 2]
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: table
+            wordsBlockCount: 1
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words:
+                confidence: null
+                location: null
+                wordsList: null
+                rows: [0]
+                columns: [0]
+                cellLocation: null
+            }]
+        }, class WordsRegionList {
+            type: text
+            wordsBlockCount: 9
+            wordsBlockList: [class GeneralTableWordsBlockList {
+                words: B17SQ5
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B01SJ6
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BS3P71
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BE02Q7
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B1WD04
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B05TD9
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: BG0R37
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B73GC4
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }, class GeneralTableWordsBlockList {
+                words: B3G94Z
+                confidence: null
+                location: null
+                wordsList: null
+                rows: null
+                columns: null
+                cellLocation: null
+            }]
+        }]
+        excel: null
+    }
+}
